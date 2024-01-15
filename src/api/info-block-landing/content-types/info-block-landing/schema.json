@@ -4,7 +4,8 @@
   "info": {
     "singularName": "info-block-landing",
     "pluralName": "info-block-landings",
-    "displayName": "infoBlock_landing"
+    "displayName": "infoBlocks_landing",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

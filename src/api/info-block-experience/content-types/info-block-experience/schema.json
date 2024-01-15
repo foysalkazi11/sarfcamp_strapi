@@ -4,7 +4,8 @@
   "info": {
     "singularName": "info-block-experience",
     "pluralName": "info-block-experiences",
-    "displayName": "infoBlock_experience"
+    "displayName": "infoBlocks_experience",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
