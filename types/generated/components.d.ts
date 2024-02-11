@@ -16,10 +16,11 @@ export interface BlogArticleLandscapeImage extends Schema.Component {
   collectionName: 'components_blog_article_landscape_images';
   info: {
     displayName: 'landscapeImage';
+    description: '';
   };
   attributes: {
     image: Attribute.Media & Attribute.Required;
-    ImageCaption: Attribute.String;
+    imageCaption: Attribute.String;
   };
 }
 
