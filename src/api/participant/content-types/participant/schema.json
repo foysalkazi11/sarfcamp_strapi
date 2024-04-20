@@ -4,7 +4,8 @@
   "info": {
     "singularName": "participant",
     "pluralName": "participants",
-    "displayName": "participant"
+    "displayName": "participant",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -21,9 +22,10 @@
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": true,
+      "unique": true
     },
-    "phoneNumber": {
+    "phone": {
       "type": "string"
     },
     "isGeneralInterest": {

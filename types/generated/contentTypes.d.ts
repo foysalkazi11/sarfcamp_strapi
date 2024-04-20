@@ -999,6 +999,7 @@ export interface ApiParticipantParticipant extends Schema.CollectionType {
     singularName: 'participant';
     pluralName: 'participants';
     displayName: 'participant';
+    description: '';
   };
   options: {
     draftAndPublish: false;
@@ -1006,8 +1007,8 @@ export interface ApiParticipantParticipant extends Schema.CollectionType {
   attributes: {
     firstName: Attribute.String & Attribute.Required;
     lastName: Attribute.String & Attribute.Required;
-    email: Attribute.Email & Attribute.Required;
-    phoneNumber: Attribute.String;
+    email: Attribute.Email & Attribute.Required & Attribute.Unique;
+    phone: Attribute.String;
     isGeneralInterest: Attribute.Boolean &
       Attribute.Required &
       Attribute.DefaultTo<false>;
